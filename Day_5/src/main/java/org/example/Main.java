@@ -13,14 +13,11 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         System.out.println("Ievadiet simbolu");
         String input = sc.nextLine();
-
+        
         if (input.equals("programmēšana")) {
-
             System.out.println("Uzvarēji!");
         } else if (input.length() == "programmēšana".length()) {
             System.out.println("Vināds simbolu skaits");
-
-
         }
         else {
             System.out.println("Zaudēji!");
