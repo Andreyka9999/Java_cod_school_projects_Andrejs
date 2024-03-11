@@ -2,25 +2,39 @@ package org.example;
 
 import java.util.Scanner;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
-    public static void main(String[] args) {
-        sample1() Sample(2);
-    }
 
-    public static void sample1() {
+    public static void main(String[] args) {
+       // Scanner sc = new Scanner(System.in);
+      //  System.out.println("Ievadi skaitli!");
+      //  int input = sc.nextInt();
+
+      //  if (input > 10 || input < 5) {
+      //      System.out.println("$$");
+     //   } else if (input >= 6 && input <= 9) {
+        //    System.out.println("$");
+
+      //  }
+        sample1();
+    }
+//===========================================================================
+    public static void sample1 () {
+
         Scanner sc = new Scanner(System.in);
-         System.out.println("Ievadiet simbolu");
-         String input = sc.nextLine();
-        
+        System.out.println("Ievadiet simbolu");
+        String input = sc.nextLine();
+
         if (input.equals("programmēšana")) {
             System.out.println("Uzvarēji!");
         } else if (input.length() == "programmēšana".length()) {
             System.out.println("Vināds simbolu skaits");
-        }
-        else {
+        } else {
             System.out.println("Zaudēji!");
         }
+       sample2();
+    }
+    //===========================================================================
+    public static void sample2 () {
+
     }
 }
