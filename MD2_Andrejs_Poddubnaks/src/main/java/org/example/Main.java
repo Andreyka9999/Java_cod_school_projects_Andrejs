@@ -7,8 +7,9 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         System.out.println("Ievadiet tekstu!");
         String input = sc.nextLine();
+        int count = input.length();
 
-        if (input.length() > 5 ) {
+        if (count > 5 ) {
             System.out.println("Programmēt ir forši!");
         }
     }
