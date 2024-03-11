@@ -6,13 +6,13 @@ import java.util.Scanner;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        sample1();
+        sample1() Sample(2);
     }
 
     public static void sample1() {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Ievadiet simbolu");
-        String input = sc.nextLine();
+         System.out.println("Ievadiet simbolu");
+         String input = sc.nextLine();
         
         if (input.equals("programmēšana")) {
             System.out.println("Uzvarēji!");
