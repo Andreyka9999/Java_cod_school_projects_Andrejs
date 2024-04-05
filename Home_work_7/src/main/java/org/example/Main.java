@@ -13,7 +13,7 @@ public class Main {
         while (!finished) {
             System.out.print("Ievadiet skaitli: ");
             int number = sc.nextInt();
-            sum += number;
+            sum += number; // sum = sum + number;
 
             System.out.print("Beigt darbu? (ja/ne): ");
             String response = sc.next();
