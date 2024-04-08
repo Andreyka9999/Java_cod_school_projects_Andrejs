@@ -12,11 +12,9 @@ public class Main {
     System.out.println("Type a text!");
     String input = sc.nextLine();
 
-    if (input.contains("aaa")) {
-        System.out.println("The text contains this simbols");
+    if (input.toLowerCase().contains("aaa")) {
         return 1;
     } else {
-        System.out.println("Text doesn`t contains neccessary simbols");
         return 0;
     }
     }
