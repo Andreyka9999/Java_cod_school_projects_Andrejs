@@ -12,7 +12,10 @@ public class Main {
 
 
         int[] numbers = {1, 4, 7, 2, 9, 4, 6};
-        List<Integer> list = new ArrayList<>(Arrays.asList(numbers));
+        List<Integer> numberList = new ArrayList<>();
+        for (int i = 0; i < numberList.size(); i++) {
+            System.out.println(numberList.get(i) + " ");
+        }
 
 
     }
