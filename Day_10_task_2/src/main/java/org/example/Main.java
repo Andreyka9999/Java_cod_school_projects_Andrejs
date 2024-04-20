@@ -17,13 +17,16 @@ public class Main {
 
         System.out.println("Ievadiet 6 skaitļus: ");
 
-        for(int i = 0; i < 6; i++){
+
+        for(int i = 0; i < 6; i++) {
             System.out.println("Ievadiet skaitli!");
             Double in = sc.nextDouble();
             numbers.add(in);
         }
+
         return numbers;
     }
+
 
     public static double calculateAverage(List<Double> numbers){
         double sum = 0;
