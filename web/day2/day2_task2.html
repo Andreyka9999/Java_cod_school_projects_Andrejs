@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title>2. nodarbība</title>
+    </head>
+    <body>
+        <div class="buttons">
+          <h2>Spēle: uzmini vārdu</h2>
+          <input type="text" id="wordInput" placeholder="Ievadiet vārdu">
+          <button onclick="checkWord()">Pārbaudīt</button>
+        </div>
+    <script>
+        function checkWord() {
+            let userInput = document.getElementById("wordInput").value.toLowerCase();
+            let correctWord = "programmēšana";
+
+            if (userInput === correctWord) {
+                document.querySelector("button").style.backgroundColor = "green";
+            } else {
+                document.querySelector("button").style.backgroundColor = "red";
+            }
+        }
+    </script>
+    </body>
+</html>
