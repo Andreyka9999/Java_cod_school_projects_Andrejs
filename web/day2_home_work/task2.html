@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="lv">
+    <head>
+        <meta charset="UTF-8">
+        <title>2 Home work</title>
+        <link rel="stylesheet" href="style.css"
+</head>
+<body class="background-color">
+    <div class="buttons">
+
+<input type="text" class=inField id="inputField" placeholder="Ievadiet savu vārdu!">
+<button id="btn1" class="btn1" onClick="splitWord()">Split a word!</button>
+</div>
+
+<script>
+function splitWord() {
+
+    let word = document.getElementById("inputField").value;
+
+  
+    let characters = word.split('');
+
+    for (var i = 0; i < characters.length; i++) {
+        alert(characters[i]);
+    }
+}
+</script>
+
+</body>
+</html>
