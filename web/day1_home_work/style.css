@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #444444;
+h1 {
+        width: 255px;
+        margin: 30px auto 8px;
+        font-family: "Arial", sans-serif;
+        text-align: center;
+        font-weight: normal;
+        font-size: 56px;
+        line-height: 64px
+.site-header {
+        min-width: 550px;
+        height: 186px;
+        margin-bottom: 150px;
+        padding-top: 30px;
+        background: #847462 no-repeat center url("img/gloevk-bg.jpg");
+        background-size: cover;
+        color: #ffffff;
+.container {
+            width: 510px;
+            margin: 0 auto;
+            padding: 0 20px;
+.information {
+                width: 510px;
+                margin: 0 auto 30px;
+                padding: 0 20px;
