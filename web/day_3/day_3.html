@@ -19,7 +19,11 @@
             if (words[i].length > longestWord.length) {
                 longestWord = words[i];
             }
+            if (words[i].length == 0) {
+                alert("Nav ievadīti vārdi!")
+            }
         }
+        
 
         document.getElementById("result").innerText = "Garākais vārds: " + longestWord;
 
