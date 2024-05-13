@@ -14,14 +14,17 @@
         var inputString = document.getElementById("inputString").value;
         var words = inputString.split(" ");
         var longestWord = "";
+        if (inputString.trim() === "") {
+                alert("Nav ievadīti vārdi!")
+                return;
+            }
 
         for (var i = 0; i<words.length; i++) {
             if (words[i].length > longestWord.length) {
                 longestWord = words[i];
             }
-            if (words[i].length == 0) {
-                alert("Nav ievadīti vārdi!")
-            }
+        
+            
         }
         
 
