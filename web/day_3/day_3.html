@@ -20,11 +20,12 @@
             }
 
         for (var i = 0; i<words.length; i++) {
+            if (/^[a-zA-Z]+$/.test(words[i])) {
             if (words[i].length > longestWord.length) {
                 longestWord = words[i];
             }
         
-            
+        }
         }
         
 

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <meta charset="UTF-8">
+    <title>Masīvs HTML vidē</title>
+</head>
+<body>
+   
+<input type="text" id="searchInput" placeholder="Ievadiet vārdu">
+<button onclick="searchWord()">Meklēt</button>
+
+<p id="result"></p>
+<script>
+    var colors = ["sakrans", "zaļš", "zils", "dzeltens", "melns", "balts", "bruns", "lillā"];
+
+    function searchWord() {
+        var searchInput = document.getElementById("searchInput").value;
+        var index = colors.indexOf(searchInput);
+
+        if (index !== -1) {
+        document.getElementById("result").innerText = "Vārds '" + searchInput + "' atrasts indeksā: " + index;
+    } else {
+        document.getElementById("result").innerText = "Vārds '" + searchInput + "' nav atrasts.";
+    }
+}
+</script>
+</body>
+</html>
