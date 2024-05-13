@@ -29,3 +29,8 @@ h1 {
                 width: 510px;
                 margin: 0 auto 30px;
                 padding: 0 20px;
+}
+.listOfExperience{
+        list-style-type: square;
+        color: black;
+}

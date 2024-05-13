@@ -1,12 +1,16 @@
 .btn1{
-    background-color: red;
+    background-color: #16c484;
     color: black;
+    width: 150px;
+    height: 100px;
+}
+
+.btn1:active{
+    background-color: blue;
+}
+
+.btn2{
     width: 120px;
     height: 120px;
-}
-.btn2{
-    background-color: aqua;
-    color: black;
-    width: 200px;
-    height: 200px;
+    background-color: red;
 }

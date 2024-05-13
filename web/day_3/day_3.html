@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>3.nodarbība</title>
+</head>
+<body>
+<input type="text" id="inputString" placeholder="Ievadiet vārdu virkni">
+<button onclick="task3()">Atrast garāko vārdu</button>
+<p id="result"></p>
+<script>
+    function task3() {
+        var inputString = document.getElementById("inputString").value;
+        var words = inputString.split(" ");
+        var longestWord = "";
+
+        for (var i = 0; i<words.length; i++) {
+            if (words[i].length > longestWord.length) {
+                longestWord = words[i];
+            }
+        }
+
+        document.getElementById("result").innerText = "Garākais vārds: " + longestWord;
+
+    }
+
+</script>
+
+</body>
+</html>
